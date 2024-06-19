@@ -1,0 +1,93 @@
+p {
+     font-family:"Manrope", sans-serif;
+     font-size: 1.1em;
+     margin: auto;
+}
+
+h1 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 3.5em;
+    text-align: center;
+    color: white;
+    padding: 100px;
+    background-image: url("images/arriere-plan.avif")
+    
+
+} 
+.container {
+    display :flex;
+    justify-content: center;
+    align-items: center;
+}
+.container img {
+    max-width: 100%;
+    height: auto;
+}
+.intro{
+    font-weight: 800;
+    text-decoration: underline;
+}
+
+ul{
+    font-family:"Manrope", sans-serif;
+    font-size: 1em;
+}
+
+a{
+    text-decoration: none;
+    font-size: 1.5em;
+    font-family:"Manrope", sans-serif;
+}
+
+.element {
+    text-align: center;
+    border-radius: 100% 0% 100% 0% / 46% 52% 48% 54% ;
+    font-size: 25px;
+    background-color: rgb(0, 0, 0);
+    opacity: 0.5;
+    border-left: 5px #000000 solid;
+    padding: 100px;
+    margin-bottom: 30px;
+}
+
+h1 {
+    font-size: 50px;
+    text-shadow: 3px 3px 0px rgba(202, 47, 225, 0.2);
+    padding: 100px;
+}
+
+.conteneur {
+    font-size: 50px;
+    border-radius: 100% 0% 100% 0% / 0% 100% 0% 100%  ;
+    flex-direction:row;
+    flex-wrap: wrap;
+    display: flex ;
+    justify-content: space-between;
+    margin: 50px;
+}
+
+.box {
+    padding: 27px;
+}
+
+table {
+    margin: auto;
+}
+
+form {
+   margin-top: 40px;
+   display: flex;
+   justify-content: center;
+}
+
+.conteneur-image {
+    display: flex;
+    justify-content: center;
+}
+label {
+        margin-right: 10px;
+}
+    
+.na-class-4 {
+    margin-bottom: 20px;
+}
